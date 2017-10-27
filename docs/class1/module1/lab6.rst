@@ -95,7 +95,7 @@ Perform the following steps to build the cluster:
    |image29|
 
 #. Click the :guilabel:`Run Lab 1.6 - Buil...` button
-
+   
 #. The results window will now populate.  You will see each request in the
    folder is sent and it's associated test results are displayed on the screen.
    Building the cluster can take a few minutes.  You can follow the progress
@@ -106,6 +106,13 @@ Perform the following steps to build the cluster:
    list should be named ``Cleanup Environment``
 
    |image30|
+
+
+.. NOTE::
+   If you are facing authentication token issue after running the Lab 1.6 collection. Please return to Lab 1.3, Step 8 in POSTMAN to set your admin password to "admin".
+   
+Task 2 - Verify the Built Cluster in BIG-IP GUI
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. At this point you can log into BIG-IP A using Chrome at ``https://10.1.1.10``
    and verify the cluster was built by using the menu in the BIG-IP GUI to
